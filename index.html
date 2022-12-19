@@ -5,29 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    
     <title>Reto-Alura</title>
 </head>
 <body>
     <div class="container">
-       <div class="logo">
-            <img class="logoImg" src="./assets/Logo.png" alt="logo">
-            <h1 class="Title">Encriptador de Mensajes</h1>
-       </div>
-       <div class="left"> 
-            <input class="text-input" type="text" placeholder="Ingrese el texto aquí">
-       </div>
-       <div class="right">
-            <img src="./assets/guyblue.png" alt="imgRight" class="imgRight">
-            <h1 class="text">Ningún Mensaje Fue Encontrado</h1>
-            <textarea class="textArea" name="name" cols="60" rows="6" >Ingrese el texto que quiera encriptar o desencriptar.</textarea>
-       </div>
-       <div class="left-button">
-          <p>Solo minusculas y sin acentos</p>
-          <button type="button" id="btnEncriptar">Encriptar</button>
-          <button type="button" id="btnDesencriptar">Desencriptar</button>
+          <header>
+               <div class="logo">
+                    <img class="logoImg" src="./assets/Logo.png" alt="logo">
+                    <h1 class="Title">Encriptador de Mensajes</h1>
+               </div>
+          </header>
+          
+          <main>
+               <div class="left"> 
+                    <input  class="text-input" id="inputText" type="text" placeholder="Ingrese el texto aquí">
+               </div>
+               <div class="right">
+                    <img src="./assets/guyblue.png" alt="imgRight" id="imgRight">
+                    <h1 id="text">Ningún Mensaje Fue Encontrado</h1>
+                    <textarea id="textArea" name="name" cols="60" rows="6" >Ingrese el texto que quiera encriptar o desencriptar.</textarea>
+                    <button type="button" id="btnCopiar" onclick="copy()">Copiar</button>
+                    </div>
+               <div class="left-button">
+                    <p class="subtext"><img src="./assets/bi_exclamation-circle-fill.png" alt=""> Solo minusculas y sin acentos</p>
+                    <button type="button" id="btnEncriptar" onclick="encriptar()">Encriptar</button>
+                    <button type="button" id="btnDesencriptar" onclick="Desencriptar()">Desencriptar</button>
+               </div>
+          </main>
+
+          <footer>
+               
+          </footer>
+          
      </div>
-     
-</div>
-<script src="./scripts/script.js"></script>
+<script type="text/javascript" src="./scripts/script.js"></script>
 </body>
 </html>
