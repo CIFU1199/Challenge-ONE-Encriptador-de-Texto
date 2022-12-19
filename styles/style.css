@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 670px;
+    padding: 5px;
+    background-color: blue;
+
+}
+
+.logo{
+    width: 100%;
+    float: left;
+    background-color: greenyellow;
+
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+    background-color: #fff;
+}
+
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: orange;
+
+}
+
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background-color: blanchedalmond;
+}
+
+.logoImg{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 5%;
+}
+
+.Title{
+    float: inherit;
+    margin-left: 20%;
+}
+
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #F3F5FC;
+}
+
+
+.imgRight{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+.text{
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+.textArea{
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+#btnEncriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+
+#btnDesencriptar{
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
