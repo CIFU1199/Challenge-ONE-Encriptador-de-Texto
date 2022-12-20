@@ -7,78 +7,161 @@ body{
     padding: 0;
     background-color: #F3F5FC;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 1024px;
 }
 
 
-.container{
-    margin: auto;
-    width: 970px;
-    height: 650px;
-    padding: 5px;
-
+.main{
+    display: flex;
+    flex-direction: row;
 }
+
+
+/* Header */
 
 .logo{
-    width: 100%;
-    float: left;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+
+.logoImg{
+    margin-top: 25px;
+    width: 120px;
+    height: 48px;
+
+    
+}
+
+.Title{
+    width: auto;
+    height: 48px;
+    margin-left: 6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
 
 }
-.left{
-    float: left;
-    width: 70%;
-    height: 70%;
-    border-radius: 24px;
+
+/* Left */
+.container{
+    display: flex;
+    width: 680px;
+    height: 700px;
+    padding: 5px;
+    flex-direction: column;
 }
+
+
+
+.left{
+
+    margin-top: 180px;
+    margin-left: 80px;
+    border-radius: 24px;
+    margin-bottom: 50vh;
+}
+
+#inputText{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: #0A3871; 
+    background-color: #F3F5FC;
+}
+
+
+
+ 
+/* Botones */
+
+.left-button{
+    border-radius: 24px;    
+}
+
+
+.subtext{
+    display: flex;
+    color: #495057;
+    opacity: 0.8; 
+    margin-left: 1rem;
+}
+
+#imgP{
+    padding: 1rem;
+}
+
+.buttons{
+    display: inline;
+    justify-content: space-between;
+    
+}
+
+.ButonGen{
+    width: 320px;
+    height: 67px;
+    border-radius: 2rem;
+    font-size: 18px;
+    transition: 1s;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    
+}
+
+ #btnEncriptar{
+    background-color: #0A3871;
+    color: white;
+    border: none; 
+}
+#btnEncriptar:hover{
+    background-color: #0d4b97;
+    
+}
+
+#btnDesencriptar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+#btnDesencriptar:hover{
+    background-color: white;
+}
+  
+
+
+
+
+/* right */
 
 .right{
-    float: right;
-    width: 30%;
-    height: auto;
+    display: flex;
+    flex-direction: column;
     border-radius: 24px;
     background-color: #fff;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.09);
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+    width: 400px;
+    height: 900px;
 
 }
-
-.left-button{
-    float: left;
-    width: 70%;
-    height: auto;
-    border-radius: 24px;
-    ;
-}
-
-.logoImg{
-    margin-top: 1%;
-    float: inherit;
-    margin-left: 5%;
-}
-
-.Title{
-    float: inherit;
-    margin-left: 20%;
-}
-
-.text-input{
-    float: left;
-    margin-left: 10%;
-    margin-top: 10%;
-    width: 80%;
-    height: 80%;
-    color: #0A3871;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    background-color: #F3F5FC;
-    
-}
-
 
 #imgRight{
-    margin-left: 2%;
-    margin-top: 20%;
-    width: 90%;
+    margin: auto;
     height: auto;
 }
 #text{
@@ -86,75 +169,39 @@ body{
     margin-right: 5%;
 }
 
+
 #textArea{
-    float: left;
+
     margin-left: 10%;
     color: #0A3871;
     width: 80%;
     height: 60%;
     border: none;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
     background-color: transparent;
     resize: none;
 
 }
 
-#btnEncriptar{
-    padding: 24px;
-    width: 30%;
-    height: 60%;
-    border-radius: 24px;
-    margin-left: 15%;
-    background-color: #0A3871;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: 1s;
-}
-#btnEncriptar:hover{
-    background-color: #06264d;
-    
-}
-
-#btnDesencriptar {
-    padding: 24px;
-    width: 30%;
-    height: 60%;
-    border-radius: 24px;
-    margin-left: 10%;
-    background-color: #D8DFE8;
-    color: #0A3871;
-    border: 1px solid #0A3871;
-    cursor: pointer;
-    transition: 1s;
-}
-
-#btnDesencriptar:hover{
-    background-color: white;
-}
 
 #btnCopiar{
-    margin-left: 33%;
-    margin-top: 90%;
-    padding: 24px;
-    width: 40%;
-    height: 10%;
+    
     background-color: #D8DFE8;
     color: #0A3871;
     border: 1px solid #0A3871;
-    border-radius: 24px;
     display: none;
-    cursor: pointer;
     margin-bottom: 1rem;
 }
 
 #btnCopiar:hover{
     background-color: white;
 }
-.subtext{
-    display: flex;
-    padding: 1rem;
-    color: #495057;
-    opacity: 0.8;
+
+
+/* MediaQuery */
+
+@media (max-width: 812px) {
+  
+    
 }
