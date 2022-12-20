@@ -8,7 +8,7 @@ const mostrar = () =>{
 
 
 const depurartexto = () =>{
-
+   
 }
 
 
