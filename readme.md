@@ -26,13 +26,4 @@ inserción del texto que será encriptado o desencriptado, y el usuario debe pod
 **Extras:**
 - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del `ctrl+C` o de la opción "copiar" del menú de las aplicaciones.
 
-Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y vamos a trabajar con el sistema ágil de desarrollo, utilizando el Trello de la siguiente forma: 
-
-1. La columna **Listos para iniciar** presenta las tarjetas con elementos que aun no fueron desarrollados.
-2. En la columna **En Desarrollo** estarán los elementos que estés desarrollando en el momento. Al iniciar una tarea, podrás mover la tarjeta que contiene dicha tarea para esta columna.
-3. En la columna **Pausado** estarán los elementos que comenzaste a desarrollar, pero necesitaste parar por algún motivo.
-4. Por fin, en la columna **Concluido** estarán los elementos ya concluidos.
-
-El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
-
  Buen proyecto!
