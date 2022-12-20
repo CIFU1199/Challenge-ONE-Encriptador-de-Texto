@@ -66,7 +66,8 @@ body{
 .left{
 
     margin-top: 180px;
-    margin-left: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     border-radius: 24px;
     margin-bottom: 50vh;
 }
@@ -75,6 +76,11 @@ body{
     font-size: 30px;
     border: none;
     outline: none;
+    width: 100%;
+    resize: none;
+    overflow-y: scroll;
+    height:300px;
+    
     color: #0A3871; 
     background-color: #F3F5FC;
 }
@@ -86,6 +92,7 @@ body{
 
 .left-button{
     border-radius: 24px;    
+    margin-top: -12rem;
 }
 
 
@@ -154,6 +161,7 @@ body{
     justify-content: center;
     align-items: center;
 
+    margin-right: 80px;
     margin-top: 40px;
     width: 400px;
     height: 900px;
@@ -201,7 +209,90 @@ body{
 
 /* MediaQuery */
 
-@media (max-width: 812px) {
-  
+@media screen and (max-width: 1260px) {
+    
+    .logo{
+        position: absolute;
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .main{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .section1{
+        display: flex;
+        justify-content: center;
+        width: 690px;
+        margin-top: 8rem;
+        margin-bottom: 6rem;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin-top: 6rem;
+    }
+
+    
+
+    .right{
+        
+        width: auto;
+        height: 300px;
+        margin-left: 1rem;
+        margin-bottom: 40px;
+        
+    }
+
+    #imgRight{
+        display: none;
+    }
+
     
 }
+
+
+@media screen and (max-width: 668px) {
+
+    .section1{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        margin-top: 8rem;
+        margin-bottom: 8rem;
+        padding-left: 3rem;
+    }
+    .section2{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        margin-top: 8rem;
+        padding-left: 3rem;
+    }
+
+    .left-button{
+        justify-content: center;
+    }
+
+    .buttons{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .ButonGen{
+        margin: 0.5rem;
+    }
+
+
+
+    
+
+
+}
+

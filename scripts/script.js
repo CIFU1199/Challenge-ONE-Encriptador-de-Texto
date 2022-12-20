@@ -1,3 +1,4 @@
+
 const encriptar = () =>{
     var texto = document.getElementById("inputText").value.toLowerCase();
     //i es para que aferte tanto mayusculas como minusculas
@@ -42,6 +43,6 @@ const encriptar = () =>{
     var contenido = document.querySelector("#textArea");
     contenido.select();
     document.execCommand("copy");
-    alert("se copio ")
+    alert("se copio correctamente")
  }
 
